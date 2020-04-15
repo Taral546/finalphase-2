@@ -1,0 +1,62 @@
+body
+{
+    margin:0;
+    background-color: grey;
+}
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    background-color:green;
+}
+li a
+{
+    display: inline-block;
+    color:honeydew;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 20px 15px;
+}
+li{
+    display: inline-block;
+}
+li a:hover
+{
+    background-color:rgb(46, 196, 46);
+    cursor:pointer;
+    color:black;
+}
+
+h2,#newuser{
+    text-align: center;
+}
+
+
+#login_button,#submit_button,#post_button,.button_hover
+{
+    margin-top: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background:red;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+th, td{
+    border-bottom: solid grey 1px;
+    font-size: 25px;
+    padding: 5px 10px;
+   
+}
+
+#postDetail
+{
+    width:100%;
+    font-size: 20px;
+    text-align:center;
+    
+}
